@@ -34,6 +34,6 @@
 
   ```
 - comprision(> , < , <=, >=, ==, ===) //result true or false
-- logical operartors
+- logical operartors (&&, ||, !)
 - control statement
- - conditional contorl statement (if,else if,else)
+ - conditional contorl statement (if,else if,else,switch)
