@@ -33,6 +33,6 @@
   console.log(x); //result 6
 
   ```
-- comprision(> , < , <=, >=, ==, ===)
+- comprision(> , < , <=, >=, ==, ===) //result true or false
 - logical operartirs
 - control statement
