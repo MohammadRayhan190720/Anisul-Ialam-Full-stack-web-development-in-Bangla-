@@ -7,7 +7,9 @@
   let x = 5;
   let y ;
   y = x++;
-  console.log(y); //result 6
+  console.log(y); //result 5
+  console.log(x); //result 6
+  
   ```
 - comprision(> , < , <=, >=, ==, ===)
 - logical operartirs
