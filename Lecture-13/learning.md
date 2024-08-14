@@ -1,5 +1,6 @@
 ### Basic Js  
 #### What I learn Form this Lecture 
-- Assainment,comprision(> , < , <=, >=, ==, ===)
+- Assainment ( =, +=, -=, *=, /=, %=)
+- comprision(> , < , <=, >=, ==, ===)
 - control statement
   - 
