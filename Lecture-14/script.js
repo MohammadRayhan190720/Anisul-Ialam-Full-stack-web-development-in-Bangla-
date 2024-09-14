@@ -51,10 +51,10 @@ switch( numberOfDay){
 
 //program-2
 
-const letter = prompt ("Enter a letter for checking Vowels: ");
-letter.toLowerCase();
+let letter = prompt ("Enter a letter for checking Vowels: ");
+let smallLetter = letter.toLowerCase();
 
-switch (letter){
+switch (smallLetter){
   case 'a' :
   case 'e' :
   case 'i' :
