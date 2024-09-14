@@ -85,6 +85,16 @@ while( i <= 10){
   i++;
 }
 
+//how work while loop
+let k = 30 ;
+while(true){
+  if ( k > 40){
+    break;
+  }
+  console.log(k);
+  k++;
+}
+
 //do-while
 //print 1-10
 

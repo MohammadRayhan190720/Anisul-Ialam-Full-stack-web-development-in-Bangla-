@@ -5,4 +5,6 @@
  - for loop
  - while loop
  - do while
- 
+    - for vs while
+- for of
+- for in
