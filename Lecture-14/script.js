@@ -3,28 +3,48 @@
 
 const numberOfDay = parseInt(prompt("Entar a number of days : "));
 
-if ( numberOfDay === 0 ) {
-  console.log("weekday");
-}else if ( numberOfDay === 1 ) {
-  console.log("weekday");
-}
-else if ( numberOfDay === 2 ) {
-  console.log("weekday");
-}
-else if ( numberOfDay === 3 ) {
-  console.log("weekday");
-}
-else if ( numberOfDay === 4 ) {
-  console.log("weekday");
-}
-else if ( numberOfDay === 5 ) {
-  console.log("weekday");
-}
-else if ( numberOfDay === 6 ) {
-  console.log("weekend");
-}
-else if ( numberOfDay === 7 ) {
-  console.log("weekend");
-}else{
-  console.log("Please input a number of days 1 _ 7")
+// if ( numberOfDay === 0 ) {
+//   console.log("weekday");
+// }else if ( numberOfDay === 1 ) {
+//   console.log("weekday");
+// }
+// else if ( numberOfDay === 2 ) {
+//   console.log("weekday");
+// }
+// else if ( numberOfDay === 3 ) {
+//   console.log("weekday");
+// }
+// else if ( numberOfDay === 4 ) {
+//   console.log("weekday");
+// }
+// else if ( numberOfDay === 5 ) {
+//   console.log("weekday");
+// }
+// else if ( numberOfDay === 6 ) {
+//   console.log("weekend");
+// }
+// else if ( numberOfDay === 7 ) {
+//   console.log("weekend");
+// }else{
+//   console.log("Please input a number of days 1 _ 7")
+// }
+
+//these type of case we always use Switch
+
+switch( numberOfDay){
+  case 1 :
+  case 2 :
+  case 3 :
+  case 4 :
+  case 5 :
+    console.log("weekday");
+    break;
+
+  case 6:
+  case 7:
+    console.log("weekend");
+    break;
+
+  default :
+  console.log("Please input a valid number of Days")
 }
