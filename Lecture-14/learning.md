@@ -8,5 +8,6 @@
     - for vs while
  - break 
  - continue
-- for of
-- for in
+- array ,string ,object
+- for of => array looping
+- for in => object looping

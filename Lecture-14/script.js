@@ -104,3 +104,19 @@ do{
   x++;
 
 }while(x <= 10);
+
+
+//object 
+
+const person = {
+  name : "Rayhan",
+  age : 24,
+  height : " 5fet 7 inch",
+  occupation : "Student",
+}
+
+for (const key in person) {
+  // console.log(key);
+  console.log(person[key]);
+ 
+}
