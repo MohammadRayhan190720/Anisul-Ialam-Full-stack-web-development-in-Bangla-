@@ -76,3 +76,21 @@ for (let i = 2; i <=100 ; i= i + 2){
 
 }
 console.log(`sum: ${sum}`);
+
+//while loop
+//print 1-10
+let i = 0;
+while( i <= 10){
+  console.log(i);
+  i++;
+}
+
+//do-while
+//print 1-10
+
+let x = 1;
+do{
+  console.log(x);
+  x++;
+
+}while(x <= 10);
