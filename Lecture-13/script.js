@@ -10,13 +10,13 @@
 // }
 
 //vowel consonant program
-// let letter = prompt("Enter a letter : ");
-// letter = letter.toLocaleLowerCase();
-// if (letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u'){
-//   console.log("vowel");
-// }else{
-//   console.log("consonant");
-// }
+let letter = prompt("Enter a letter : ");
+letter = letter.toLocaleLowerCase();
+if (letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u'){
+  console.log("vowel");
+}else{
+  console.log("consonant");
+}
 
 //largest number among there number
 const num1 = parseInt(prompt("Enter frist number : "));
