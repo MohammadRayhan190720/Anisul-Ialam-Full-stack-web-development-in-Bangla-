@@ -6,5 +6,7 @@
  - while loop
  - do while
     - for vs while
+ - break 
+ - continue
 - for of
 - for in
