@@ -48,3 +48,22 @@ switch( numberOfDay){
   default :
   console.log("Please input a valid number of Days")
 }
+
+//program-2
+
+const letter = prompt ("Enter a letter for checking Vowels: ");
+letter.toLowerCase();
+
+switch (letter){
+  case 'a' :
+  case 'e' :
+  case 'i' :
+  case 'o' :
+  case 'u' :
+ 
+    console.log("vowel");
+    break;
+  
+  default :
+  console.log("Consonant");
+}
